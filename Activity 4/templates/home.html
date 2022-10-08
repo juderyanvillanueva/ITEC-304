@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head><title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+	<script type="text/javascript" src="{{ url_for('static', filename='script.js')}}"></script>
+</head>
+<body id="bg">
+
+	<div id="input-box">
+		<h3 id="h-1">Register</h3>
+		<form action="/login">
+			<label for="text">Enter Username:</label><br>
+			<input type="text" name="text" placeholder="Enter Text" id="text"><br>
+			<label for="pwd">Enter Password:</label><br>
+			<input type="password" name="password" placeholder="Enter Password" id="pass"><br>
+			<label for="email">Type E-mail:</label><br>
+  			<input type="email" placeholder="Enter Email" id="email" name="email"><br>
+			<br>
+
+			<label for="male">MALE</label><br>
+			<input type="radio" id="male" name="gender" value="MALE">	<br>
+			<label for="female">FEMALE</label><br>
+			<input type="radio" id="female" name="gender" value="FEMALE"><br>
+			
+			<br>
+			
+			<label for="birthday">Birthday:</label><br>
+  			<input type="date" id="birthday" name="birthday"><br>
+			
+			<label for="phone">Phone number:</label><br>
+  			<input type="tel" id="phone" name="phone"><br>
+
+			<input type="submit" value="Register"><br>
+
+		</form>
+	</div>
+
+</body>
+</html>

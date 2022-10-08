@@ -1,0 +1,58 @@
+
+		#bg
+        {
+        background:url(https://media.istockphoto.com/photos/modern-presentation-background-picture-id1215185067?k=20&m=1215185067&s=170667a&w=0&h=-Mmb8htyLMQ_AllHr24Gd5Jw7ccUizkt2pkLpgmjU6M=);
+        background-size:cover;
+        background-position:center;
+        background-repeat:no-repeat;
+        font-family:sans-serif;
+        height:100%;
+        width:100%;
+        }
+
+    #input-box
+        {
+        display:flex;
+        flex-direction:column;
+        height:340px;
+        width:320px;
+        color:white;
+        top:30%;
+        left:38%;
+        position:absolute;
+        justify-content:center;
+        }
+
+    #input-box::before
+        {
+        content: ' ';
+        background-color: rgb(58, 47, 61);
+        position: absolute;
+        height: 450px;
+        width: 360px;
+        z-index:-1;
+        opacity: 0.5;
+        border-radius: 15px;
+        }
+
+        #h-1
+        {
+        margin: 5px;
+        margin-left: 50px;
+        padding: 5px;
+        text-align: center;
+        font-size: 23px;
+        }
+
+        #input-box input
+        {
+        margin-left: 90px;
+    
+        }
+
+        #input-box label
+        {
+        margin-left: 90px;
+    
+        }
+
